@@ -10,8 +10,8 @@
             "name": "claude-code-notify",
             "version": "2026.03.23",
             "source": {
-                "source": "github",
-                "repo": "hidao80/claude-code-notify-plugin"
+                "source": "url",
+                "repo": "https://github.com/hidao80/claude-code-notify-plugin"
             },
             "description": "Plays a completion sound when Claude Code finishes on Windows, macOS, and Linux.",
             "homepage": "https://github.com/hidao80/claude-code-notify-plugin",
@@ -30,8 +30,8 @@
             "name": "post-chatwork",
             "version": "2026.05.16",
             "source": {
-                "source": "github",
-                "repo": "hidao80/post-chatwork-skill"
+                "source": "url",
+                "repo": "https://github.com/hidao80/post-chatwork-skill"
             },
             "description": "A Claude Code skill plugin for posting messages and files to Chatwork.",
             "category": "Utilities",

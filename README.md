@@ -36,46 +36,6 @@ claude plugin install post-chatwork
 
 Replace the plugin name with any name from the **Available Plugins** table above.
 
----
-
-## Troubleshooting
-
-### Windows: SSH host key verification failed
-
-When running `claude plugin install` on Windows for the first time, you may see:
-
-```
-Host key verification failed.
-```
-
-**Cause**: `claude plugin install` clones plugin repositories via SSH (`git@github.com:...`).
-On a fresh Windows setup, GitHub's ED25519 host key is not yet registered in
-`~/.ssh/known_hosts`, so SSH strict host checking rejects the connection.
-
-**Fix** — Run this once in PowerShell to register GitHub's host key:
-
-```powershell
-if (!(Test-Path "$env:USERPROFILE\.ssh")) {
-    New-Item -ItemType Directory "$env:USERPROFILE\.ssh" | Out-Null
-}
-ssh-keyscan -t ed25519 github.com | Add-Content "$env:USERPROFILE\.ssh\known_hosts"
-```
-
-If you use **Git Bash** instead:
-
-```bash
-ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts
-```
-
-> [!Warning]
-> **Security note**: After running the command, you can verify the registered key matches
-> GitHub's official ED25519 fingerprint (`SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU`)
-> by checking [GitHub's SSH key fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints).
-
-After running the command, retry `claude plugin install`.
-
----
-
 ## marketplace.json Schema
 
 The registry is defined in `.claude-plugin/marketplace.json`. Each entry in the `plugins` array follows this structure:

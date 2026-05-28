@@ -48,7 +48,7 @@
             "version": "2026.05.08",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins/src/branch/main/plugins/code-analyze"
+                "url": "https://codeberg.org/hidao80/claude-plugins.git"
             },
             "description": "Record and update project documentation in a readable state for both humans and AI.",
             "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/code-analyze/README.md",
@@ -64,7 +64,7 @@
             "version": "2026.03.18",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins/src/branch/main/plugins/commit-msg"
+                "url": "https://codeberg.org/hidao80/claude-plugins.git"
             },
             "description": "Propose concise commit messages.",
             "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/commit-msg/README.md",
@@ -80,7 +80,7 @@
             "version": "2026.03.03",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins/src/branch/main/plugins/modernize-repo"
+                "url": "https://codeberg.org/hidao80/claude-plugins.git"
             },
             "description": "Modernize your repository with Docker, CI/CD, and README updates for JavaScript, Python and PHP.",
             "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/modernize-repo/README.md",
@@ -98,7 +98,7 @@
             "version": "2025.11.24",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins/src/branch/main/plugins/sbi-feedback"
+                "url": "https://codeberg.org/hidao80/claude-plugins.git"
             },
             "description": "Provide structured positive feedback for work reports using the SBI (Situation, Behavior, Impact) feedback framework.",
             "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/sbi-feedback/README.md",
@@ -115,7 +115,7 @@
             "version": "2025.11.24",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins/src/branch/main/plugins/security-audit"
+                "url": "https://codeberg.org/hidao80/claude-plugins.git"
             },
             "description": "Checks the security of a repository. Use when investigating external communications, data storage, third-party libraries, or security risks. Use cases: security audits, vulnerability checks, privacy verification, or investigating external communications.",
             "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/security-audit/README.md",

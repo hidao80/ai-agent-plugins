@@ -21,13 +21,13 @@ A plugin marketplace registry for [Claude Code](https://claude.ai/code) develope
 ### Step 1 — Add this marketplace to Claude Code
 
 ```bash
-claude plugin marketplace add https://codeberg.com/hidao80/claude-plugins
+claude plugin marketplace add https://codeberg.org/hidao80/claude-plugins.git
 ```
 
 or from the Claude Code prompt:
 
 ```bash
-/plugin marketplace add https://codeberg.com/hidao80/claude-plugins
+/plugin marketplace add https://codeberg.org/hidao80/claude-plugins.git
 ```
 
 
@@ -36,13 +36,13 @@ This registers the marketplace so Claude Code can discover the plugins listed in
 ### Step 2 — Install a plugin
 
 ```bash
-claude plugin install <plugin-name>
+claude plugin install <plugin-name>@hidao80-plugins
 ```
 
 or from the Claude Code prompt:
 
 ```bash
-/plugin install https://codeberg.com/hidao80/claude-plugins
+/plugin install <plugin-name>@hidao80-plugins
 ```
 
 Replace the plugin name with any name from the **Available Plugins** table above.

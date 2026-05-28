@@ -11,14 +11,14 @@
             "version": "2026.03.23",
             "source": {
                 "source": "url",
-                "url": "https://github.com/hidao80/claude-code-notify-plugin"
+                "url": "https://codeberg.org/hidao80/claude-code-notify-plugin"
             },
             "description": "Plays a completion sound when Claude Code finishes on Windows, macOS, and Linux.",
-            "homepage": "https://github.com/hidao80/claude-code-notify-plugin",
+            "homepage": "https://codeberg.org/hidao80/claude-marketplace/docs/claude-code-notify/README.md",
             "category": "Utilities",
             "tags": [
-                "notification",
                 "hook",
+                "notification",
                 "windows",
                 "macos",
                 "linux",
@@ -31,14 +31,85 @@
             "version": "2026.05.16",
             "source": {
                 "source": "url",
-                "url": "https://github.com/hidao80/post-chatwork-skill"
+                "url": "https://codeberg.org/hidao80/post-chatwork-skill"
             },
             "description": "A Claude Code skill plugin for posting messages and files to Chatwork.",
+            "homepage": "https://codeberg.org/hidao80/claude-marketplace/docs/post-chatwork/README.md",
             "category": "Utilities",
             "tags": [
+                "skill",
                 "notification",
                 "chatwork",
                 "auto-post"
+            ]
+        },
+        {
+            "name": "code-analyze",
+            "version": "2026.05.08",
+            "source": "plugins/code-analyze",
+            "description": "Record and update project documentation in a readable state for both humans and AI.",
+            "homepage": "https://codeberg.org/hidao80/claude-marketplace/docs/code-analyze/README.md",
+            "category": "developed",
+            "tags": [
+                "command",
+                "documentation",
+                "analyze"
+            ]
+        },
+        {
+            "name": "commit-msg",
+            "version": "2026.03.18",
+            "source": "plugins/commit-msg",
+            "description": "Propose concise commit messages.",
+            "homepage": "https://codeberg.org/hidao80/claude-marketplace/docs/commit-msg/README.md",
+            "category": "developed",
+            "tags": [
+                "command",
+                "documentation",
+                "git"
+            ]
+        },
+        {
+            "name": "modernize-repo",
+            "version": "2026.03.03",
+            "source": "plugins/modernize-repo",
+            "description": "Modernize your repository with Docker, CI/CD, and README updates for JavaScript, Python and PHP.",
+            "homepage": "https://codeberg.org/hidao80/claude-marketplace/docs/modernize-repo/README.md",
+            "category": "developed",
+            "tags": [
+                "command",
+                "modernize",
+                "javascript",
+                "python",
+                "php"
+            ]
+        },
+        {
+            "name": "sbi-feedback",
+            "version": "2025.11.24",
+            "source": "plugins/sbi-feedback",
+            "description": "Provide structured positive feedback for work reports using the SBI (Situation, Behavior, Impact) feedback framework.",
+            "homepage": "https://codeberg.org/hidao80/claude-marketplace/docs/sbi-feedback/README.md",
+            "category": "human-resources",
+            "tags": [
+                "command",
+                "report",
+                "feedback",
+                "hr"
+            ]
+        },
+        {
+            "name": "security-audit",
+            "version": "2025.11.24",
+            "source": "plugins/security-audit",
+            "description": "Checks the security of a repository. Use when investigating external communications, data storage, third-party libraries, or security risks. Use cases: security audits, vulnerability checks, privacy verification, or investigating external communications.",
+            "homepage": "https://codeberg.org/hidao80/claude-marketplace/docs/security-audit/README.md",
+            "category": "human-resources",
+            "tags": [
+                "command",
+                "report",
+                "feedback",
+                "hr"
             ]
         }
     ]

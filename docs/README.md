@@ -1,3 +1,5 @@
+![](./images/hero_image.webp)
+
 # hidao80-plugins — Claude Code Plugin Marketplace by hidao80
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Claude Code](https://img.shields.io/badge/Claude_Code-plugin-blueviolet?logo=anthropic&logoColor=white)](https://claude.ai/code)

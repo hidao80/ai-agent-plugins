@@ -7,34 +7,12 @@
     "description": "Plugins for AI coding agents developed by hidao80.",
     "plugins": [
         {
-            "name": "claude-code-notify",
-            "version": "2026.03.23",
-            "source": {
-                "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-code-notify-plugin"
-            },
-            "description": "Plays a completion sound when Claude Code finishes on Windows, macOS, and Linux.",
-            "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/claude-code-notify/README.md",
-            "category": "Utilities",
-            "tags": [
-                "hook",
-                "notification",
-                "windows",
-                "macos",
-                "linux",
-                "sound",
-                "stop-hook"
-            ]
-        },
-        {
             "name": "post-chatwork",
-            "version": "2026.05.16",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/post-chatwork-skill"
+                "url": "https://github.com/hidao80/post-chatwork-skill"
             },
             "description": "A Claude Code skill plugin for posting messages and files to Chatwork.",
-            "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/post-chatwork/README.md",
             "category": "Utilities",
             "tags": [
                 "skill",
@@ -45,13 +23,11 @@
         },
         {
             "name": "code-analyze",
-            "version": "2026.05.08",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins.git"
+                "url": "https://github.com/hidao80/claude-plugins.git"
             },
             "description": "Record and update project documentation in a readable state for both humans and AI.",
-            "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/code-analyze/README.md",
             "category": "developed",
             "tags": [
                 "command",
@@ -61,13 +37,11 @@
         },
         {
             "name": "commit-msg",
-            "version": "2026.03.18",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins.git"
+                "url": "https://github.com/hidao80/claude-plugins.git"
             },
             "description": "Propose concise commit messages.",
-            "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/commit-msg/README.md",
             "category": "developed",
             "tags": [
                 "command",
@@ -77,13 +51,11 @@
         },
         {
             "name": "modernize-repo",
-            "version": "2026.03.03",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins.git"
+                "url": "https://github.com/hidao80/claude-plugins.git"
             },
             "description": "Modernize your repository with Docker, CI/CD, and README updates for JavaScript, Python and PHP.",
-            "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/modernize-repo/README.md",
             "category": "developed",
             "tags": [
                 "command",
@@ -95,13 +67,11 @@
         },
         {
             "name": "sbi-feedback",
-            "version": "2025.11.24",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins.git"
+                "url": "https://github.com/hidao80/claude-plugins.git"
             },
             "description": "Provide structured positive feedback for work reports using the SBI (Situation, Behavior, Impact) feedback framework.",
-            "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/sbi-feedback/README.md",
             "category": "human-resources",
             "tags": [
                 "command",
@@ -112,13 +82,11 @@
         },
         {
             "name": "security-audit",
-            "version": "2025.11.24",
             "source": {
                 "source": "url",
-                "url": "https://codeberg.org/hidao80/claude-plugins.git"
+                "url": "https://github.com/hidao80/claude-plugins.git"
             },
             "description": "Checks the security of a repository. Use when investigating external communications, data storage, third-party libraries, or security risks. Use cases: security audits, vulnerability checks, privacy verification, or investigating external communications.",
-            "homepage": "https://codeberg.org/hidao80/claude-plugins/docs/security-audit/README.md",
             "category": "human-resources",
             "tags": [
                 "command",

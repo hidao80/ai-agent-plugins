@@ -9,8 +9,8 @@
         {
             "name": "post-chatwork",
             "source": {
-                "source": "url",
-                "url": "https://github.com/hidao80/post-chatwork-skill"
+                "source": "github",
+                "repo": "hidao80/post-chatwork-skill"
             },
             "description": "A Claude Code skill plugin for posting messages and files to Chatwork.",
             "category": "Utilities",
@@ -24,8 +24,8 @@
         {
             "name": "code-analyze",
             "source": {
-                "source": "url",
-                "url": "https://github.com/hidao80/claude-plugins.git"
+                "source": "github",
+                "repo": "hidao80/claude-plugins"
             },
             "description": "Record and update project documentation in a readable state for both humans and AI.",
             "category": "developed",
@@ -38,8 +38,8 @@
         {
             "name": "commit-msg",
             "source": {
-                "source": "url",
-                "url": "https://github.com/hidao80/claude-plugins.git"
+                "source": "github",
+                "repo": "hidao80/claude-plugins"
             },
             "description": "Propose concise commit messages.",
             "category": "developed",
@@ -52,8 +52,8 @@
         {
             "name": "modernize-repo",
             "source": {
-                "source": "url",
-                "url": "https://github.com/hidao80/claude-plugins.git"
+                "source": "github",
+                "repo": "hidao80/claude-plugins"
             },
             "description": "Modernize your repository with Docker, CI/CD, and README updates for JavaScript, Python and PHP.",
             "category": "developed",
@@ -68,8 +68,8 @@
         {
             "name": "sbi-feedback",
             "source": {
-                "source": "url",
-                "url": "https://github.com/hidao80/claude-plugins.git"
+                "source": "github",
+                "repo": "hidao80/claude-plugins"
             },
             "description": "Provide structured positive feedback for work reports using the SBI (Situation, Behavior, Impact) feedback framework.",
             "category": "human-resources",
@@ -83,8 +83,8 @@
         {
             "name": "security-audit",
             "source": {
-                "source": "url",
-                "url": "https://github.com/hidao80/claude-plugins.git"
+                "source": "github",
+                "repo": "hidao80/claude-plugins"
             },
             "description": "Checks the security of a repository. Use when investigating external communications, data storage, third-party libraries, or security risks. Use cases: security audits, vulnerability checks, privacy verification, or investigating external communications.",
             "category": "human-resources",

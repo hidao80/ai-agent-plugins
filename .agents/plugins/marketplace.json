@@ -1,0 +1,80 @@
+{
+  "name": "hidao80-plugins",
+  "interface": {
+    "displayName": "hidao80 Plugins"
+  },
+  "plugins": [
+    {
+      "name": "post-chatwork",
+      "source": {
+        "source": "local",
+        "path": "./plugins/post-chatwork"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Utilities"
+    },
+    {
+      "name": "code-analyze",
+      "source": {
+        "source": "local",
+        "path": "./plugins/code-analyze"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "commit-msg",
+      "source": {
+        "source": "local",
+        "path": "./plugins/commit-msg"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "modernize-repo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/modernize-repo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "sbi-feedback",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sbi-feedback"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "security-audit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/security-audit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

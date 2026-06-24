@@ -2,7 +2,7 @@
     "name": "hidao80-plugins",
     "owner": {
         "name": "hidao80",
-        "url": "https://codeberg.org/hidao80/hidao80"
+        "url": "https://github.com/hidao80/hidao80"
     },
     "description": "Plugins for AI coding agents developed by hidao80.",
     "plugins": [
@@ -12,7 +12,6 @@
             "description": "A Claude Code skill plugin for posting messages and files to Chatwork.",
             "category": "Utilities",
             "tags": [
-                "skill",
                 "notification",
                 "chatwork",
                 "auto-post"
@@ -24,7 +23,6 @@
             "description": "Record and update project documentation in a readable state for both humans and AI.",
             "category": "developed",
             "tags": [
-                "command",
                 "documentation",
                 "analyze"
             ]
@@ -35,7 +33,6 @@
             "description": "Propose concise commit messages.",
             "category": "developed",
             "tags": [
-                "command",
                 "documentation",
                 "git"
             ]
@@ -46,7 +43,6 @@
             "description": "Modernize your repository with Docker, CI/CD, and README updates for JavaScript, Python and PHP.",
             "category": "developed",
             "tags": [
-                "command",
                 "modernize",
                 "javascript",
                 "python",
@@ -59,7 +55,6 @@
             "description": "Provide structured positive feedback for work reports using the SBI (Situation, Behavior, Impact) feedback framework.",
             "category": "human-resources",
             "tags": [
-                "command",
                 "report",
                 "feedback",
                 "hr"
@@ -69,12 +64,10 @@
             "name": "security-audit",
             "source": "./",
             "description": "Checks the security of a repository. Use when investigating external communications, data storage, third-party libraries, or security risks. Use cases: security audits, vulnerability checks, privacy verification, or investigating external communications.",
-            "category": "human-resources",
+            "category": "developed",
             "tags": [
-                "command",
-                "report",
-                "feedback",
-                "hr"
+                "security",
+                "audit"
             ]
         }
     ]

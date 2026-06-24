@@ -1,6 +1,6 @@
 ![](./images/hero_image.webp)
 
-# hidao80-plugins — Claude Code Plugin Marketplace by hidao80
+# ai-agent-plugins — AI agent Plugins by hidao80
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Claude Code](https://img.shields.io/badge/Claude_Code-plugin-blueviolet?logo=anthropic&logoColor=white)](https://claude.ai/code)
 
@@ -18,7 +18,7 @@ A plugin marketplace registry for [Claude Code](https://claude.ai/code) develope
 | [sbi-feedback](sbi-feedback/README.md) | 2025.11.24 | Provide structured positive feedback for work reports using the SBI framework. | human-resources | `command` `report` `feedback` `hr` |
 | [security-audit](security-audit/README.md) | 2025.11.24 | Checks the security of a repository. Use for security audits, vulnerability checks, and privacy verification. | human-resources | `command` `security` `audit` `vulnerability` |
 
-## How to Use
+## How to Use (Claude Code)
 
 ### Step 1 — Add this marketplace to Claude Code
 
@@ -48,6 +48,24 @@ or from the Claude Code prompt:
 ```
 
 Replace the plugin name with any name from the **Available Plugins** table above.
+
+## How to Use (Codex CLI)
+
+### Step 1 — Add this marketplace to Codex CLI
+
+```bash
+codex plugin marketplace add hidao80/claude-plugins
+```
+
+### Step 2 — Install a plugin
+
+Open `/plugins` in Codex CLI, select the **hidao80-plugins** marketplace, and install the plugin you want — or install it directly by name:
+
+```bash
+/plugin install <plugin-name>@hidao80-plugins
+```
+
+Replace the plugin name with any name from the **Available Plugins** table above. Start a new thread (or restart the Codex desktop app) to activate it.
 
 ## Contributing
 

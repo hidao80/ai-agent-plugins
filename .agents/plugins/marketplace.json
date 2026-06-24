@@ -1,0 +1,80 @@
+{
+    "name": "hidao80-plugins",
+    "interface": {
+        "displayName": "hidao80 Plugins"
+    },
+    "plugins": [
+        {
+            "name": "post-chatwork",
+            "source": {
+                "source": "local",
+                "path": "./skills/post-chatwork"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Utilities"
+        },
+        {
+            "name": "code-analyze",
+            "source": {
+                "source": "local",
+                "path": "./skills/code-analyze"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Developer Tools"
+        },
+        {
+            "name": "commit-msg",
+            "source": {
+                "source": "local",
+                "path": "./skills/commit-msg"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Developer Tools"
+        },
+        {
+            "name": "modernize-repo",
+            "source": {
+                "source": "local",
+                "path": "./skills/modernize-repo"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Developer Tools"
+        },
+        {
+            "name": "sbi-feedback",
+            "source": {
+                "source": "local",
+                "path": "./skills/sbi-feedback"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Human Resources"
+        },
+        {
+            "name": "security-audit",
+            "source": {
+                "source": "local",
+                "path": "./skills/security-audit"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Developer Tools"
+        }
+    ]
+}

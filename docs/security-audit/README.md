@@ -110,21 +110,10 @@ Each finding includes:
 
 ## References
 
-For a detailed checklist and full pattern list, see [`reference.md`](../security-audit/reference.md).
+For a detailed checklist and full pattern list, see [`reference.md`](../../skills/security-audit/references/reference.md).
 
 ## Notes
 
 - This skill performs **static analysis** only. Runtime behavior must be verified separately.
 - Internal code of third-party libraries is not fully analyzed.
 - False positives are possible; final judgments should be made by a human.
-
-## Allowed Tools
-
-| Tool | Scope |
-|------|-------|
-| `Read` | Any file |
-| `Grep` | Content search |
-| `Glob` | File pattern matching |
-| `Bash` | `find`, `cat` |
-| `WebFetch` | External URLs |
-| `Agent` | Subagent delegation |

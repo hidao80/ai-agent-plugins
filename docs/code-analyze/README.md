@@ -4,7 +4,7 @@ A Claude Code skill that systematically analyzes a repository and produces struc
 
 ## Overview
 
-`code-analyze` walks through a codebase in 18 defined steps, producing a set of Markdown files under `.claude/analyzed/`. Each file is stamped with the commit hash at the time of analysis, making the output fully traceable and reproducible.
+`code-analyze` walks through a codebase in 17 defined steps, producing a set of Markdown files under `.claude/analyzed/`. Each file is stamped with the commit hash at the time of analysis, making the output fully traceable and reproducible.
 
 ## Usage
 
@@ -36,8 +36,7 @@ All generated files are written to:
 ├── notes.md
 ├── todo.md
 ├── naming_convention.md
-├── use_cases.md
-└── index.md
+└── use_cases.md
 ```
 
 Every generated `.md` file includes this front matter:
@@ -72,7 +71,6 @@ commit-hash: {target commit hash}
 | 15 | `todo` | Prioritized list: security, tests, database, code quality, infra, DX, performance |
 | 16 | `naming_convention` | Variable, table, column, function, and class naming patterns |
 | 17 | `use_cases` | Use case diagrams in Mermaid notation |
-| 18 | `index.md` | Index linking all generated documents |
 
 ## Quality Rules
 
@@ -89,16 +87,3 @@ commit-hash: {target commit hash}
 ### Accuracy
 - Unverified information is labeled **Unconfirmed**, **Speculative**, or **Unknown**.
 - Speculative suggestions include a recommendation score (1–5).
-
-## Allowed Tools
-
-| Tool | Scope |
-|------|-------|
-| `Bash` | `git *`, `sed`, `cat`, `find`, `wc`, `cd`, `echo`, `ls` |
-| `PowerShell` | `git *`, `sed`, `cat`, `where`, `cd`, `echo`, `ls` |
-| `Read` | Any file |
-| `Write` | `.claude/analyzed/*.md` |
-| `WebFetch` | External URLs |
-| `Glob` | File pattern matching |
-| `Grep` | Content search |
-| `Agent` | Subagent delegation |

@@ -37,15 +37,3 @@ A Claude Code skill that modernizes a repository with Docker, CI/CD, and README 
 | `--skip-docker` | Skip all Docker-related files |
 | `--skip-ci` | Skip all CI/CD-related files |
 | `--readme-only` | Update README only |
-
-## Allowed Tools
-
-| Tool | Scope |
-|------|-------|
-| `Bash` | `git *`, `docker`, `podman` |
-| `PowerShell` | `git *`, `docker`, `podman` |
-| `Edit` | `*.json`, `*.toml`, `*.yaml`, `*.yml`, `requests.txt`, `*.md`, `*.lock`, `composer.*`, `package.*`, `pyproject.*`, `Dockerfile*`, `docker-compose*`, `.dockerignore`, `.github/**/*` |
-| `Glob` | File pattern matching |
-| `Grep` | Content search |
-| `WebFetch` | External URLs |
-| `Agent` | Subagent delegation |

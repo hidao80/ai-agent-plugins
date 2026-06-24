@@ -47,10 +47,3 @@ Impact (I): {Impact catchphrase}
 {Quantified project skills and personal growth — multiple entries acceptable.
  Example: Project Management: 15XP, Technical Skills: 10XP, Communication: 8XP}
 ```
-
-## Allowed Tools
-
-| Tool | Scope |
-|------|-------|
-| `WebFetch` | External URLs |
-| `Agent` | Subagent delegation |

@@ -1,12 +1,16 @@
 ---
 name: modernize-repo
-allowed-tools: Bash(git *), Bash(docker), Bash(podman), PowerShell(git *), PowerShell(docker), PowerShell(podman), Edit(*.json,*.toml,*.yaml,*.yml,requests.txt,*.md,*.lock,composer.*,package.*,pyproject.*,Dockerfile*,docker-compose*,.dockerignore,.github/**/*), Glob, Grep, WebFetch, Agent
 description: Modernize your repository with Docker, CI/CD, and README updates for JavaScript, Python and PHP.
 ---
 
 # /modernize-repo
 
 Modernize your repository (Docker + CI/CD + README)
+
+- [/modernize-repo](#modernize-repo)
+  - [Usage](#usage)
+  - [What it does](#what-it-does)
+  - [Options](#options)
 
 ## Usage
 ```

@@ -1,12 +1,15 @@
 ---
 name: sbi-feedback
 description: Provide structured positive feedback for work reports using the SBI (Situation, Behavior, Impact) feedback framework.
-allowed-tools: WebFetch, Agent
 ---
 
 # Purpose of This Skill
 
 Provide structured positive feedback from work reports using the SBI (Situation, Behavior, Impact) feedback framework.
+
+- [Purpose of This Skill](#purpose-of-this-skill)
+  - [Rules](#rules)
+  - [Output Format](#output-format)
 
 ## Rules
 

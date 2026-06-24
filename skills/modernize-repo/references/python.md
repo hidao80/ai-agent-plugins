@@ -2,6 +2,24 @@
 
 Follow this prompt to modernize your Python project.
 
+- [Modernizing Python Projects](#modernizing-python-projects)
+  - [Steps](#steps)
+    - [1. Dockerize](#1-dockerize)
+      - [Dockerfile (multi-stage build)](#dockerfile-multi-stage-build)
+      - [docker-compose.yml (for development)](#docker-composeyml-for-development)
+      - [.dockerignore](#dockerignore)
+    - [2. CI/CD (GitHub Actions)](#2-cicd-github-actions)
+      - [.github/workflows/lint.yml](#githubworkflowslintyml)
+      - [.github/workflows/format.yml](#githubworkflowsformatyml)
+      - [.github/workflows/test.yml](#githubworkflowstestyml)
+      - [.github/workflows/audit.yml](#githubworkflowsaudityml)
+      - [.github/workflows/docker.yml](#githubworkflowsdockeryml)
+    - [3. README Updates](#3-readme-updates)
+      - [CI Badges (add at the top of README)](#ci-badges-add-at-the-top-of-readme)
+      - [Quick Start Section](#quick-start-section)
+    - [Run locally](#run-locally)
+  - [Notes](#notes)
+
 ## Steps
 
 ### 1. Dockerize

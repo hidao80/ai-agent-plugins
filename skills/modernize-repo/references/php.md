@@ -2,6 +2,34 @@
 
 Follow this prompt to modernize your PHP project.
 
+- [Modernizing PHP Projects](#modernizing-php-projects)
+  - [Steps](#steps)
+    - [1. Dockerize](#1-dockerize)
+      - [Dockerfile (multi-stage build)](#dockerfile-multi-stage-build)
+      - [docker-compose.yml (for development)](#docker-composeyml-for-development)
+      - [docker/nginx/default.conf](#dockernginxdefaultconf)
+      - [.dockerignore](#dockerignore)
+    - [2. CI/CD (GitHub Actions)](#2-cicd-github-actions)
+      - [.github/workflows/lint.yml](#githubworkflowslintyml)
+      - [.github/workflows/analyse.yml](#githubworkflowsanalyseyml)
+      - [.github/workflows/test.yml](#githubworkflowstestyml)
+      - [.github/workflows/audit.yml](#githubworkflowsaudityml)
+      - [.github/workflows/docker.yml](#githubworkflowsdockeryml)
+    - [3. E2E Testing with Playwright (Local Execution)](#3-e2e-testing-with-playwright-local-execution)
+      - [Setup Playwright for PHP Projects](#setup-playwright-for-php-projects)
+      - [Create package.json](#create-packagejson)
+      - [biome.json](#biomejson)
+      - [.github/workflows/js-lint.yml](#githubworkflowsjs-lintyml)
+      - [playwright.config.ts](#playwrightconfigts)
+      - [Test File Example: Full-Page Screenshot](#test-file-example-full-page-screenshot)
+      - [.gitignore Updates](#gitignore-updates)
+    - [4. README Updates](#4-readme-updates)
+      - [CI Badges (add at the top of README)](#ci-badges-add-at-the-top-of-readme)
+      - [Quick Start Section](#quick-start-section)
+    - [Run with Podman](#run-with-podman)
+    - [Run locally](#run-locally)
+  - [Notes](#notes)
+
 ## Steps
 
 ### 1. Dockerize

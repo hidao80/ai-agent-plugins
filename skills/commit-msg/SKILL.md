@@ -1,6 +1,5 @@
 ---
 name: commit-msg
-allowed-tools: Bash(git *), Bash(cd), PowerShell(git *), PowerShell(cd), Read, Agent
 description: Propose concise commit messages.
 ---
 

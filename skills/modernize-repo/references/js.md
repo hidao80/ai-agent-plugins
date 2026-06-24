@@ -2,6 +2,56 @@
 
 Follow this prompt to modernize your JavaScript/TypeScript project.
 
+- [Modernizing JavaScript/TypeScript Projects](#modernizing-javascripttypescript-projects)
+  - [Package Manager Detection](#package-manager-detection)
+  - [Steps](#steps)
+    - [1. Dockerize](#1-dockerize)
+      - [Dockerfile (multi-stage build)](#dockerfile-multi-stage-build)
+        - [npm](#npm)
+        - [pnpm](#pnpm)
+        - [yarn](#yarn)
+        - [bun](#bun)
+        - [deno](#deno)
+      - [docker-compose.yml (for development)](#docker-composeyml-for-development)
+        - [npm / yarn / pnpm](#npm--yarn--pnpm)
+        - [bun](#bun-1)
+        - [deno](#deno-1)
+      - [.dockerignore](#dockerignore)
+    - [2. CI/CD (GitHub Actions)](#2-cicd-github-actions)
+      - [.github/workflows/lint.yml](#githubworkflowslintyml)
+        - [npm / pnpm / yarn / bun](#npm--pnpm--yarn--bun)
+        - [deno](#deno-2)
+      - [biome.json](#biomejson)
+      - [.github/workflows/test.yml](#githubworkflowstestyml)
+        - [npm](#npm-1)
+        - [pnpm](#pnpm-1)
+        - [yarn](#yarn-1)
+        - [bun](#bun-2)
+        - [deno](#deno-3)
+      - [.github/workflows/audit.yml (npm/pnpm/yarn/bun only)](#githubworkflowsaudityml-npmpnpmyarnbun-only)
+        - [npm](#npm-2)
+        - [pnpm](#pnpm-2)
+        - [yarn](#yarn-2)
+        - [bun](#bun-3)
+        - [deno](#deno-4)
+      - [.github/workflows/build.yml](#githubworkflowsbuildyml)
+    - [3. E2E Testing with Playwright (Local Execution)](#3-e2e-testing-with-playwright-local-execution)
+      - [Setup Playwright](#setup-playwright)
+        - [npm/pnpm/yarn/bun](#npmpnpmyarnbun)
+        - [deno](#deno-5)
+      - [playwright.config.ts](#playwrightconfigts)
+      - [Test File Example: Full-Page Screenshot](#test-file-example-full-page-screenshot)
+      - [.gitignore Updates](#gitignore-updates)
+    - [4. README Updates](#4-readme-updates)
+      - [CI Badges (add at the top of README)](#ci-badges-add-at-the-top-of-readme)
+      - [Quick Start Section](#quick-start-section)
+        - [npm](#npm-3)
+        - [pnpm](#pnpm-3)
+        - [yarn](#yarn-3)
+        - [bun](#bun-4)
+        - [deno](#deno-6)
+  - [Notes](#notes)
+
 ## Package Manager Detection
 
 Before applying templates, detect the package manager:
@@ -277,7 +327,7 @@ Use the appropriate workflows based on the detected package manager.
 
 ##### npm / pnpm / yarn / bun
 
-Biomeはスタンドアロンバイナリとして動作するため、パッケージマネージャーによらず共通のワークフローを使用できます。
+Since Biome operates as a standalone binary, you can use a common workflow regardless of the package manager.
 
 ```yaml
 name: Lint

@@ -1,10 +1,28 @@
 ---
 name: security-audit
-allowed-tools: Bash(find:*), Bash(cat:*), Read, Grep, Glob, WebFetch, Agent
 description: "Checks the security of a repository. Use when investigating external communications, data storage, third-party libraries, or security risks. Use cases: security audits, vulnerability checks, privacy verification, or investigating external communications."
 ---
 
 # Security Audit Skill
+
+- [Security Audit Skill](#security-audit-skill)
+  - [Overview](#overview)
+  - [Investigation Items](#investigation-items)
+    - [1. External Communication Check](#1-external-communication-check)
+    - [2. Data Persistence and Storage](#2-data-persistence-and-storage)
+    - [3. Third-Party Libraries](#3-third-party-libraries)
+    - [4. PWA/Service Worker](#4-pwaservice-worker)
+    - [5. Other Security Risks](#5-other-security-risks)
+  - [Execution Steps](#execution-steps)
+    - [Step 1: Codebase Exploration](#step-1-codebase-exploration)
+    - [Step 2: Pattern Search](#step-2-pattern-search)
+    - [Step 3: Detailed File Analysis](#step-3-detailed-file-analysis)
+    - [Step 4: Report Generation](#step-4-report-generation)
+  - [Risk Level Definitions](#risk-level-definitions)
+  - [Best Practices](#best-practices)
+  - [Output Format](#output-format)
+  - [References](#references)
+  - [Notes](#notes)
 
 ## Overview
 

@@ -1,10 +1,15 @@
 ---
 name: code-analyze
-allowed-tools: Bash(git *), Bash(sed), Bash(cat), Bash(find), Bash(wc), Bash(cd), Bash(echo), Bash(ls), PowerShell(git *), PowerShell(sed), PowerShell(cat), PowerShell(where), PowerShell(cd), PowerShell(echo), PowerShell(ls), Read, Write(.claude/analyzed/*.md), WebFetch, Glob, Grep, Agent
 description: Record and update project documentation in a readable state for both humans and AI.
 ---
 
 # Details
+
+- [Details](#details)
+  - [1. Traceability \& Integrity](#1-traceability--integrity)
+  - [2. Documentation Hygiene](#2-documentation-hygiene)
+  - [3. Quality of Information](#3-quality-of-information)
+  - [Target files](#target-files)
 
 ## 1. Traceability & Integrity
 
@@ -44,7 +49,7 @@ description: Record and update project documentation in a readable state for bot
 | Step No. | Category Name | Target topics |
 | --- | --- | --- |
 | 1 | dependencies | Library name, version, license, vulnerability, update status. |
-| 2 | infra | CD/CI and IaC. |
+| 2 | infrastructures | CD/CI and IaC. |
 | 3 | databases | Connection Informations, Architecture, Migration, List of tables by category and their summaries, Summary of domain areas. |
 | 4 | screens | Entry Point, Default Route, URL Pattern, Controller inheritance hierarchy, Base class, View File Convention, Basic template files. |
 | 5 | configurations |Main configuration files, Environment-specific settings. |
@@ -60,4 +65,3 @@ description: Record and update project documentation in a readable state for bot
 | 15 | todo | Security (high priority), Test, Database, Code Quality, Infrastructure, Developer Experience, Performance. |
 | 16 | naming_convention | Variable, Table name, Column name, Function name, Class name. |
 | 17 | use_cases | Use case diagram (using Mermaid notation). |
-| 18 | index.md | Index to all analyzed documents. |

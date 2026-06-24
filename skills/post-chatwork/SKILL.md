@@ -5,6 +5,23 @@ description: Post a message or file to a Chatwork room. Use when Claude needs to
 
 # Post Chatwork Skill
 
+- [Post Chatwork Skill](#post-chatwork-skill)
+  - [When to Use](#when-to-use)
+  - [Prerequisites](#prerequisites)
+    - [Environment Variables (`env` section in `settings.json`)](#environment-variables-env-section-in-settingsjson)
+    - [Room Config File](#room-config-file)
+  - [Steps](#steps)
+    - [Step 1: Load room config](#step-1-load-room-config)
+    - [Step 2: Determine the target room](#step-2-determine-the-target-room)
+    - [Step 3: Determine the message content](#step-3-determine-the-message-content)
+    - [Step 4: Detect the OS](#step-4-detect-the-os)
+    - [Step 5: Call the API](#step-5-call-the-api)
+      - [Text-only post](#text-only-post)
+      - [File upload (message optional)](#file-upload-message-optional)
+    - [Step 6: Report the result](#step-6-report-the-result)
+  - [Adding or Changing Rooms](#adding-or-changing-rooms)
+  - [Chatwork API Reference](#chatwork-api-reference)
+
 ## When to Use
 
 - When the user asks to "post to Chatwork" or "send via Chatwork"
